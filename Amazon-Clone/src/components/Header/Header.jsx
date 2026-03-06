@@ -86,7 +86,7 @@ function Header() {
                   <input placeholder='Search Amazon.in' type="text" id="search-bar" className='text-gray-700 w-full h-full pr-2.5 pb-2.5 pt-1.75 pl-0.5'/>
                 </div>
               </div>
-              <div className="form-right hover:cursor-pointer  w-[7%] h-11">
+              <div className="form-right  hover:cursor-pointer  w-[7%] h-11">
                 <div className='pl-1.5 h-full w-full flex items-center bg-[#febd69]'>
                   <Search size={28} color="#2e2e2e" className='' />
                 </div>
@@ -94,7 +94,7 @@ function Header() {
             </form>
           </div>
         </div>
-        <div className="right flex  w-[28%] h-16 bg-[#151d28]">
+        <div className="right  flex  w-[28%] h-16 bg-[#151d28]">
           <div className="main w-full flex items-center h-full mt-0.5 pt-0.75">
             <div className="country hover:border hover:border-white hover:cursor-pointer flex gap-1 mx-2">
               <img src={indiaFlag} alt="" className='w-5.5 h-4' />
